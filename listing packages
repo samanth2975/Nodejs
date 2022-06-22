@@ -1,0 +1,27 @@
+The npm list command outputs installed packages and their dependencies of the current project as a tree-structure to the stdout:
+
+npm list
+npm ls
+
+To limit the depth of the dependency tree, you use the npm list with the --depth flag.
+The following example lists all installed packages without their dependencies:
+npm list --depth=0
+
+To display only dependency tree for packages in dependencies, you use the --prod or --production flag like this:
+npm list --prod
+
+You can combine the --prod and --depth flags like this:
+npm list --prod --depth=0
+
+To show the dependency tree for packages in the devDependencies, you use the npm list command with the --dev or --development flag:
+npm list --dev
+
+Listing packages in the global packages
+To list the global packages, you use the npm list command with the --global flag:
+
+npm list --global
+
+Formatting installed packages in JSON format
+To format the output of the installed packages in JSON format, you use the npm list command with the --json flag:
+
+npm list --depth=0 --json

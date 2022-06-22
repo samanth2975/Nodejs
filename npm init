@@ -1,0 +1,20 @@
+he npm init command is a step-by-step tool to scaffold out your project. It will prompt you for input for a few aspects of the project in the following order:
+
+The project's name,
+The project's initial version,
+The project's description,
+The project's entry point (meaning the project's main file),
+The project's test command (to trigger testing with something like Standard)
+The project's git repository (where the project source can be found)
+The project's keywords (basically, tags related to the project)
+The project's license (this defaults to ISC - most open-source Node.js projects are MIT)
+It's worth noting that if you're content with the suggestion that the npm init command provides next to the prompt, you can simply hit Return or Enter to accept the 
+suggestion and move on to the next prompt.
+
+Once you run through the npm init steps above, a package.json file will be generated and placed in the current directory. If you run it in a directory that's not 
+exclusively for your project, don't worry! Generating a package.json doesn't really do anything, other than crepackage.json file. You can either move the package.json
+file to a directory that's dedicated to your project, or you can create an entirely new one in such a directory.
+
+Using npm init --yes to Instantly Initialize a Project
+If you want to get on to building your project, and don't want to spend the (albeit brief) time answering the prompts that come from npm init, you can use the --yes 
+flag on the npm init command to automatically populate all options with the default npm init values.

@@ -1,0 +1,12 @@
+change the default value
+npm config set <Key> <Value>
+npm config set init-author-email "tapas.adhikary@gail.com"
+
+way to verify if you have set the values correctly. Please use 
+npm config get <Key> 
+For example, in our case, npm config get init-author-url
+
+delete config value
+
+npm config delete init-value
+npm config delete init-author-email
